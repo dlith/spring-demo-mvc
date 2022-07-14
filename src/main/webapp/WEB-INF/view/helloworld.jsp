@@ -2,10 +2,10 @@
 <html>
 <body>
 Hello World of Spring
-<br>
-<br>
+<br><br>
 
-Student name: ${param.studentName}
+<%--Student name: ${param.studentName}--%>
 
+Message: ${message}
 </body>
 </html>
