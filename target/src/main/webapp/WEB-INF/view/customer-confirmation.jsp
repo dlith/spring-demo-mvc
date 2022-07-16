@@ -5,7 +5,7 @@
 </head>
 <body>
 
-The student is confirmed: ${customer.firstName} ${customer.lastName}
-<br><br>
+The customer is confirmed: ${customer.firstName} ${customer.lastName}
+
 </body>
 </html>
