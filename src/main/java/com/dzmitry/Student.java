@@ -11,11 +11,11 @@ public class Student {
 
     public Student() {
 
-        countryOptions = new LinkedHashMap<>();
-        countryOptions.put("BR", "Brazil");
-        countryOptions.put("FR", "France");
-        countryOptions.put("GE", "Germany");
-        countryOptions.put("IN", "India");
+//        countryOptions = new LinkedHashMap<>();
+//        countryOptions.put("BR", "Brazil");
+//        countryOptions.put("FR", "France");
+//        countryOptions.put("GE", "Germany");
+//        countryOptions.put("IN", "India");
     }
 
     public String getFirstName() {
