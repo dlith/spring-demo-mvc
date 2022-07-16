@@ -1,5 +1,6 @@
 package com.dzmitry;
 
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 
 public class Student {
@@ -10,6 +11,7 @@ public class Student {
     private LinkedHashMap<String, String> countryOptions;
     private String favoriteLanguage;
     private LinkedHashMap<String, String> favoriteLanguageOptions;
+    private String[] operatingSystems;
 
     public Student() {
 
@@ -74,6 +76,14 @@ public class Student {
         this.favoriteLanguageOptions = favoriteLanguageOptions;
     }
 
+    public String[] getOperatingSystems() {
+        return operatingSystems;
+    }
+
+    public void setOperatingSystems(String[] operatingSystems) {
+        this.operatingSystems = operatingSystems;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
@@ -82,6 +92,8 @@ public class Student {
                 ", country='" + country + '\'' +
                 ", countryOptions=" + countryOptions +
                 ", favoriteLanguage='" + favoriteLanguage + '\'' +
+                ", favoriteLanguageOptions=" + favoriteLanguageOptions +
+                ", operatingSystems=" + Arrays.toString(operatingSystems) +
                 '}';
     }
 }
